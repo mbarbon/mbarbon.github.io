@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" media="screen" rel="stylesheet" href="/css/uncomplicated.css" />
+<title>Mattia Barbon</title>
+</head>
+
+<body>
+
+<div id="container">
+    <div id="header">
+        Mattia Barbon
+    </div>
+
+    <ul id="tabnav">
+        {% for i in site.pages %}
+            {% if i.head %}
+        <li><a href="{{ i.url }}" {% if i.head == page.head %}class="active"{% endif %}>{{ i.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+    <div id="sidebar">
+        <h3>Last posts</h3>
+        <ul>
+        {% for i in site.posts limit:7 %}
+            <li><a href="{{ i.url }}">{{ i.title }}</a></li>
+        {% endfor %}
+        </ul>
+        <a href="all-posts.html">All posts</a>
+    </div>
+
+    <div id="content">{{ content }}</div>
+    <div id="footer">
+        <p><a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.0</a>
+      | Copyright &copy; <a href="index.html">Mattia Barbon</a> | Design by <a href="http://www.jdavidmacor.com">super
+      j man</a><br />
+
+<!--This theme is free for distriubtion,  so long as  link to openwebdesing.org and www.best10webhosting.net  stay on the theme-->
+        Courtesy of <a href="http://www.openwebdesign.org" target="_blank">Open Web Design</a> &amp; <a href="http://www.dubaiapartments.biz/hotels/" target="_blank">Hotels - Dubai</a> </p>
+    </div>
+</div>
+
+</body>
+</html>

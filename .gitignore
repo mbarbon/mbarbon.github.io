@@ -1,8 +1,4 @@
 *~
-output/web/*.html
-output/web/*.rss
-output/web/old
-markdown.xml
-web.tar.bz2
-output/web/20??
-20??/*.xml
+src/markdown.xml
+src/20??/*.xml
+_site

@@ -1,8 +1,10 @@
-Title: Playing with DLR
-Date-Rfc822: Fri, 01 May 2009 12:29:20 +0200
-Description: First impressions from playing with DLR
-Tags: dlr perl
-
+---
+layout: post
+title: Playing with DLR
+date: Fri, 01 May 2009 12:29:20 +0200
+description: First impressions from playing with DLR
+tags: [dlr, perl]
+---
 Setup
 -----
 

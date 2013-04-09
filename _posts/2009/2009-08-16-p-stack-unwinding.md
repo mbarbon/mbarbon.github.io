@@ -1,8 +1,10 @@
-Title: Stack unwinding for Language::P
-Date-Rfc822: Sun, 16 Aug 2009 17:08:12 +0200
-Description: Implementing stack unwinding for Language::P
-Tags: perl language-p
-
+---
+layout: post
+title: Stack unwinding for Language::P
+date: Sun, 16 Aug 2009 17:08:12 +0200
+description: Implementing stack unwinding for Language::P
+tags: [perl, language-p]
+---
 I finally found a flexible way to represent scope information in the
 <a href="http://github.com/mbarbon/language-p/tree/master">Language::P</a>
 intermediate representation.
