@@ -42,9 +42,19 @@ if (fullPath in urlMap)
 else if (path in urlMap)
     window.location.replace(urlMap[path])
 else
-    ; // TODO
+    window.location.replace('/')
     </script>
     <noscript>
-TODO add static site map
+        <div id="content">
+            <p>Can't perform automatic redirection with JavaScript disabled.</p>
+
+            <ul>
+{% for i in site.pages %}
+    {% if i.title %}
+                <li><a href="{{ i.url }}">{{ i.title }}</a></li>
+    {% endif %}
+{% endfor %}
+            </ul>
+        </div>
     </noscript>
 {% include footer.html %}
