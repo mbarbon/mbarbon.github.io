@@ -2,7 +2,7 @@
 layout: default
 title: Home
 head: index
-aliases: ['/web/3/index.html', '/web/index.html']
+aliases: ['/web/3/index.html', '/web/index.html', '/web', '/web/']
 sitemap: {priority: 0.9, changes: weekly}
 ---
 ## Current position
