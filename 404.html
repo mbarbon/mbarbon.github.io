@@ -7,50 +7,20 @@ layout: base
 
     <script language="JavaScript">
 var urlMap = {
-    // XSLT-generated pages
-    '/web/index.html':
-        '/index.html',
-    '/web/personal.html':
-        '/personal.html',
-    '/web/programming.html':
-        '/programming.html',
-    '/web/amilo.html':
-        '/amilo.html',
-    '/web/all_posts.html':
-        '/all-posts.html',
-    // Posts
-    '/web/2008/stuff.html#nov-2008-lost-youth':
-        '/2008/11/22/lost-youth.html',
-    '/web/2008/stuff.html#nov-2008-sick-of-typo3':
-        '/2008/11/17/sick-of-typo3.html',
-    '/web/2008/stuff.html#sep-2008-ipw':
-        '/2008/09/18/ipw.html',
-    '/web/2008/stuff.html#dec-2008-markdown':
-        '/2008/12/04/markdown.html',
-    '/web/2008/stuff.html#dec-2008-xslt':
-        '/2008/12/07/xslt.html',
-    '/web/2009/stuff.html#apr-2009-its-more-complicated':
-        '/2009/04/05/its-more-complicated.html',
-    '/web/2009/stuff.html#aug-2009-p-stack-unwinding':
-        '/2009/08/16/p-stack-unwinding.html',
-    '/web/2009/stuff.html#may-2009-dlr-impressions':
-        '/2009/05/01/dlr-impressions.html',
     // Posts fallbacks
-    '/web/2008/stuff.html':
-        '/all-posts.html',
-    '/web/2009/stuff.html':
-        '/all-posts.html',
-    '/web/old/stuff.html':
-        '/all-posts.html',
-    // Typo3 URLs
-    '/web/3/index.html':
-        '/index.html',
-    '/web/2/index.html':
-        '/personal.html',
-    '/web/4/index.html':
-        '/programming.html',
-    '/web/7/index.html':
-        '/amilo.html',
+    '/web/2008/stuff.html':   '/all-posts.html',
+    '/web/2009/stuff.html':   '/all-posts.html',
+    '/web/old/stuff.html':    '/all-posts.html',
+{% for p in site.pages %}
+    {% for a in p.aliases %}
+    '{{ a }}': '{{ p.url }}',
+    {% endfor %}
+{% endfor %}
+{% for p in site.posts %}
+    {% for a in p.aliases %}
+    '{{ a }}': '{{ p.url }}',
+    {% endfor %}
+{% endfor %}
 }
 
 // from http://stackoverflow.com/questions/3213531/creating-a-new-location-object-in-javascript
