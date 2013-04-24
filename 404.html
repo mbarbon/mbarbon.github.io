@@ -1,7 +1,11 @@
 ---
-layout: default
+layout: base
 ---
-<script language="JavaScript">
+    <div id="header">
+        404
+    </div>
+
+    <script language="JavaScript">
 var urlMap = {
     // XSLT-generated pages
     '/web/index.html':
@@ -69,7 +73,8 @@ else if (path in urlMap)
     window.location.replace(urlMap[path])
 else
     ; // TODO
-</script>
-<noscript>
+    </script>
+    <noscript>
 TODO add static site map
-</noscript>
+    </noscript>
+{% include footer.html %}
