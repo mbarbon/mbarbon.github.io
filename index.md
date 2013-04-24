@@ -2,6 +2,7 @@
 layout: default
 title: Home
 head: index
+aliases: ['/web/3/index.html', '/web/index.html']
 ---
 ## Current position
 

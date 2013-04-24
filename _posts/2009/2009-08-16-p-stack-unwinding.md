@@ -4,6 +4,7 @@ title: Stack unwinding for Language::P
 date: Sun, 16 Aug 2009 17:08:12 +0200
 description: Implementing stack unwinding for Language::P
 tags: [perl, language-p]
+aliases: ['/web/2009/stuff.html#aug-2009-p-stack-unwinding']
 ---
 I finally found a flexible way to represent scope information in the
 <a href="http://github.com/mbarbon/language-p/tree/master">Language::P</a>

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Posts
+aliases: ['/web/all_posts.html']
 ---
 {% for i in site.posts %}
     {% if i.old %}

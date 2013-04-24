@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Amilo A7645
+aliases: ['/web/7/index.html', '/web/amilo.html']
 ---
 ## Hardware
 

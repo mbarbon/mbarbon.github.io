@@ -3,6 +3,7 @@ layout: post
 title: Lost youth
 date: Sat, 22 Nov 2008 22:56:00 +0100
 description: Found a piece of my youth I had forgot.
+aliases: ['/web/2008/stuff.html#nov-2008-lost-youth']
 ---
 Dedicated to Syntax Error.
 
