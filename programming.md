@@ -3,6 +3,7 @@ layout: default
 title: Programming
 head: programming
 aliases: ['/web/4/index.html', '/web/programming.html']
+sitemap: {priority: 0.9, changes: monthly}
 ---
 ## wxPerl
 

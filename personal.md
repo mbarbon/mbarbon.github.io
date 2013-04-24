@@ -3,6 +3,7 @@ layout: default
 title: Personal
 head: personal
 aliases: ['/web/2/index.html', '/web/personal.html']
+sitemap: {priority: 0.7, changes: monthly}
 ---
 ## Reading
 

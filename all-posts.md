@@ -2,6 +2,7 @@
 layout: default
 title: Posts
 aliases: ['/web/all_posts.html']
+sitemap: {priority: 0.9, changes: weekly}
 ---
 {% for i in site.posts %}
     {% if i.old %}
