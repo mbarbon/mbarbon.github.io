@@ -74,6 +74,7 @@ body {
 #content {
 	width: 80ex;
 	margin-top: 15px;
+	min-height: 25ex;
 	}
 	
 #content h2 {
