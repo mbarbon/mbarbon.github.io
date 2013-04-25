@@ -94,32 +94,6 @@ body {
 	color: #000000;
 	}
 	
-/* Sidebar */
-#sidebar {
-	width: 30ex;
-	float: right;
-	clear: none;
-	margin-top: 15px;
-	}
-	
-#sidebar h3 {
-	border-bottom: 1px solid #ccc;
-	font-size: 100%;
-	}
-	
-#sidebar ul {
-	font-size: 85%;
-	}
-	
-#sidebar a, a:visited {
-	color: #666666;
-	text-decoration: underline;
-	}
-	
-#sidebar a:hover {
-	color: #000000;
-	}
-	
 /* footer */
 #footer {
 	color: #666;

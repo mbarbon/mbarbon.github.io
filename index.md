@@ -33,3 +33,12 @@ You can mail me at [mattia@barbon.org](mailto:mattia@barbon.org) or
 *Yahoo! Messenger*: mattiabarbon
 
 *MSN Messenger*: mbarbon@cpan.org
+
+## Last posts
+
+{% for i in site.posts limit:4 %}
+{{ i.date | date_to_string }} - [{{ i.title }}]({{ i.url }})<br />
+{{ i.description }}
+{% endfor %}
+
+[All posts](/all-posts.html)

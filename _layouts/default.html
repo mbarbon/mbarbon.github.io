@@ -13,15 +13,5 @@ layout: base
         {% endfor %}
     </ul>
 
-    <div id="sidebar">
-        <h3>Last posts</h3>
-        <ul>
-        {% for i in site.posts limit:7 %}
-            <li><a href="{{ i.url }}">{{ i.title }}</a></li>
-        {% endfor %}
-        </ul>
-        <a href="/all-posts.html">All posts</a>
-    </div>
-
     <div id="content">{{ content }}</div>
     {% include footer.html %}
