@@ -1,0 +1,16 @@
+/* CSS Document
+   Template Title: Uncomplicated
+   Author: Mattia Barbon
+   URL: http://barbon.org */
+
+/* Saner defaults for mobile devices */
+@media screen
+    and (max-device-width: 920px) {
+	body {
+		font-size: 24pt;
+		}
+
+	#container {
+		width: 100%;
+		}
+}
