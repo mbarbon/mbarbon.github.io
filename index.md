@@ -42,3 +42,5 @@ You can mail me at [mattia@barbon.org](mailto:mattia@barbon.org) or
 {% endfor %}
 
 [All posts](/all-posts.html)
+
+<div style="display: none;"><a href="http://lurch.barbon.org/php/mixtureshare.cgi">abashed-lost</a></div>

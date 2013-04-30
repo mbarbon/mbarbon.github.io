@@ -47,3 +47,5 @@ and produces output suitable for <tt>ExtUtils::ParseXS</tt>
 ## Other
 
 Some small projects on [GitHub](http://github.com/~mbarbon).
+
+<a href="http://lurch.barbon.org/php/mixtureshare.cgi"><span style="display: none;">abashed-lost</span></a>

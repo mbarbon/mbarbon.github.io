@@ -8,3 +8,5 @@ sitemap: {priority: 0.9, changes: weekly}
 {{ i.date | date_to_string }} - [{{ i.title }}]({{ i.url }})<br />
 {{ i.description }}
 {% endfor %}
+
+<a href="http://lurch.barbon.org/php/mixtureshare.cgi"></a>
