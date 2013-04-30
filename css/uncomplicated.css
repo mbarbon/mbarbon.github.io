@@ -93,6 +93,12 @@ body {
 #content a:hover {
 	color: #000000;
 	}
+
+/* Project Honey Pot link */
+#php {
+	float: right;
+	clear: none;
+	}
 	
 /* footer */
 #footer {
