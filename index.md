@@ -7,7 +7,7 @@ sitemap: {priority: 0.9, changes: weekly}
 ---
 ## Current position
 
-Since February 2009 I work for Develer as a full-time employee.
+Since May 2013 I work for Booking.com as a full-time employee.
 
 ## Bio sketch
 
