@@ -7,7 +7,7 @@ sitemap: {priority: 0.9, changes: weekly}
 ---
 ## Current position
 
-Since May 2013 I work for Booking.com as a full-time employee.
+Since August 2017 I work for Prymr BV as co-founder and developer
 
 ## Bio sketch
 
@@ -19,20 +19,11 @@ roughly equivalent to a MSc in Computer Science, October the 10th, 2003.
 I work in IT as a developer. In my free time (which is becoming
 less and less...) I participate to some Open Source projects.
 
-[Curriculum Vitae](mbarbon_en.pdf) ([Italian version](mbarbon_it.pdf))
+[Curriculum Vitae](mbarbon_en.pdf)
 
 ## Contact
 
-You can mail me at [mattia@barbon.org](mailto:mattia@barbon.org) or
-[mbarbon@cpan.org](mailto:mbarbon@cpan.org).
-
-*Skype*: mattia.barbon
-
-*Jabber/Google Talk*: mattia.barbon@jabber.org
-
-*Yahoo! Messenger*: mattiabarbon
-
-*MSN Messenger*: mbarbon@cpan.org
+You can mail me at [mattia@barbon.org](mailto:mattia@barbon.org).
 
 ## Last posts
 
